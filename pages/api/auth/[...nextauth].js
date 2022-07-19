@@ -8,6 +8,11 @@ export default NextAuth({
       clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
+
     // ...add more providers here
   ],
+  //tell the nextauth the signin route
+  pages: {
+    signIn: "/auth/signin",
+  },
 });
