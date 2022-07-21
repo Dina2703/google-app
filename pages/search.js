@@ -1,24 +1,26 @@
 import Head from "next/head";
+
 import SearchHeader from "../components/SearchHeader";
+import SearchResults from "../components/SearchResults";
 import TestResult from "../TestResult";
 
-function search({ results }) {
+export default function search({ results }) {
   console.log(results);
+
   return (
     <div>
       <Head>
-        <title>Search Page</title>
+        <title>{results.queries.request[0].searchTerms} - Search page</title>
       </Head>
 
       {/* Search Header */}
       <SearchHeader />
 
       {/* Search Results */}
+      <SearchResults results={results} />
     </div>
   );
 }
-
-export default search;
 
 export async function getServerSideProps(context) {
   const mockData = true;
