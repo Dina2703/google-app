@@ -8,28 +8,30 @@ export default {
   queries: {
     request: [
       {
-        title: "Google Custom Search - hello",
-        totalResults: "6060000000",
-        searchTerms: "hello",
+        title: "Google Custom Search - tailwind css",
+        totalResults: "36800000",
+        searchTerms: "tailwind css",
         count: 10,
         startIndex: 1,
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
         cx: "e8f682c0b0f6481e0",
+        searchType: "image",
       },
     ],
     nextPage: [
       {
-        title: "Google Custom Search - hello",
-        totalResults: "6060000000",
-        searchTerms: "hello",
+        title: "Google Custom Search - tailwind css",
+        totalResults: "36800000",
+        searchTerms: "tailwind css",
         count: 10,
         startIndex: 11,
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
         cx: "e8f682c0b0f6481e0",
+        searchType: "image",
       },
     ],
   },
@@ -37,603 +39,239 @@ export default {
     title: "gv-1",
   },
   searchInformation: {
-    searchTime: 0.333254,
-    formattedSearchTime: "0.33",
-    totalResults: "6060000000",
-    formattedTotalResults: "6,060,000,000",
+    searchTime: 0.304701,
+    formattedSearchTime: "0.30",
+    totalResults: "36800000",
+    formattedTotalResults: "36,800,000",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "Adele - Hello - YouTube",
-      htmlTitle: "Adele - <b>Hello</b> - YouTube",
-      link: "https://www.youtube.com/watch?v=YQHsXMglC9A",
-      displayLink: "www.youtube.com",
-      snippet:
-        'Oct 22, 2015 ... Adele - Hello. 2,992,293,983 views Oct 22, 2015 Listen to "Easy On Me" here: http://Adele.lnk.to/EOM Pre-order Adele\'s new album "30" before ...',
-      htmlSnippet:
-        "Oct 22, 2015 <b>...</b> Adele - <b>Hello</b>. 2,992,293,983 views Oct 22, 2015 Listen to &quot;Easy On Me&quot; here: http://Adele.lnk.to/EOM Pre-order Adele&#39;s new album &quot;30&quot; before&nbsp;...",
-      formattedUrl: "https://www.youtube.com/watch?v=YQHsXMglC9A",
-      htmlFormattedUrl: "https://www.youtube.com/watch?v=YQHsXMglC9A",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0QFbzW1X0JqqLN9Wp0KsTscWBAjUFTffvOYWy2LjnETK3WnduD2FZAg",
-            width: "300",
-            height: "168",
-          },
-        ],
-        imageobject: [
-          {
-            width: "1280",
-            url: "https://i.ytimg.com/vi/YQHsXMglC9A/maxresdefault.jpg",
-            height: "720",
-          },
-        ],
-        person: [
-          {
-            name: "AdeleVEVO",
-            url: "http://www.youtube.com/user/AdeleVEVO",
-          },
-        ],
-        metatags: [
-          {
-            "og:image": "https://i.ytimg.com/vi/YQHsXMglC9A/maxresdefault.jpg",
-            "twitter:app:url:iphone":
-              "vnd.youtube://www.youtube.com/watch?v=YQHsXMglC9A&feature=applinks",
-            "twitter:app:id:googleplay": "com.google.android.youtube",
-            "theme-color": "rgba(255,255,255,0.98)",
-            "og:image:width": "1280",
-            "twitter:card": "player",
-            "og:site_name": "YouTube",
-            "twitter:url": "https://www.youtube.com/watch?v=YQHsXMglC9A",
-            "twitter:app:url:ipad":
-              "vnd.youtube://www.youtube.com/watch?v=YQHsXMglC9A&feature=applinks",
-            "al:android:package": "com.google.android.youtube",
-            "twitter:app:name:googleplay": "YouTube",
-            title: "Adele - Hello",
-            "al:ios:url":
-              "vnd.youtube://www.youtube.com/watch?v=YQHsXMglC9A&feature=applinks",
-            "twitter:app:id:iphone": "544007664",
-            "og:description":
-              'Listen to "Easy On Me" here: http://Adele.lnk.to/EOMPre-order Adele\'s new album "30" before its release on November 19:  https://www.adele.comShop the "Adele...',
-            "al:ios:app_store_id": "544007664",
-            "twitter:image":
-              "https://i.ytimg.com/vi/YQHsXMglC9A/maxresdefault.jpg",
-            "twitter:player": "https://www.youtube.com/embed/YQHsXMglC9A",
-            "twitter:player:height": "720",
-            "twitter:site": "@youtube",
-            "og:video:type": "text/html",
-            "og:video:height": "720",
-            "og:video:url": "https://www.youtube.com/embed/YQHsXMglC9A",
-            "og:type": "video.other",
-            "twitter:title": "Adele - Hello",
-            "al:ios:app_name": "YouTube",
-            "og:title": "Adele - Hello",
-            "og:image:height": "720",
-            "twitter:app:id:ipad": "544007664",
-            "al:web:url":
-              "http://www.youtube.com/watch?v=YQHsXMglC9A&feature=applinks",
-            "og:video:secure_url": "https://www.youtube.com/embed/YQHsXMglC9A",
-            "og:video:tag": "Adele",
-            "og:video:width": "1280",
-            "al:android:url":
-              "vnd.youtube://www.youtube.com/watch?v=YQHsXMglC9A&feature=applinks",
-            "fb:app_id": "87741124305",
-            "twitter:app:url:googleplay":
-              "https://www.youtube.com/watch?v=YQHsXMglC9A",
-            "twitter:app:name:ipad": "YouTube",
-            "twitter:description":
-              'Listen to "Easy On Me" here: http://Adele.lnk.to/EOMPre-order Adele\'s new album "30" before its release on November 19:  https://www.adele.comShop the "Adele...',
-            "og:url": "https://www.youtube.com/watch?v=YQHsXMglC9A",
-            "twitter:player:width": "1280",
-            "al:android:app_name": "YouTube",
-            "twitter:app:name:iphone": "YouTube",
-          },
-        ],
-        videoobject: [
-          {
-            embedurl: "https://www.youtube.com/embed/YQHsXMglC9A",
-            playertype: "HTML5 Flash",
-            isfamilyfriendly: "true",
-            uploaddate: "2015-10-22",
-            description:
-              'Listen to "Easy On Me" here: http://Adele.lnk.to/EOMPre-order Adele\'s new album "30" before its release on November 19: https://www.adele.comShop the "Adele...',
-            videoid: "YQHsXMglC9A",
-            url: "https://www.youtube.com/watch?v=YQHsXMglC9A",
-            duration: "PT6M7S",
-            unlisted: "False",
-            name: "Adele - Hello",
-            paid: "False",
-            width: "1280",
-            regionsallowed:
-              "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
-            genre: "Music",
-            interactioncount: "2992293983",
-            channelid: "UComP_epzeKzvBX156r6pm1Q",
-            datepublished: "2015-10-22",
-            thumbnailurl:
-              "https://i.ytimg.com/vi/YQHsXMglC9A/maxresdefault.jpg",
-            height: "720",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://i.ytimg.com/vi/YQHsXMglC9A/maxresdefault.jpg",
-          },
-        ],
+      title: "Designing with Tailwind CSS",
+      htmlTitle: "Designing with <b>Tailwind CSS</b>",
+      link: "https://v1.tailwindcss.com/_next/static/media/workcation-screenshot.e15fad2353857da51319620da615ff93.jpg",
+      displayLink: "v1.tailwindcss.com",
+      snippet: "Designing with Tailwind CSS",
+      htmlSnippet: "Designing with <b>Tailwind CSS</b>",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://v1.tailwindcss.com/course",
+        height: 1059,
+        width: 1473,
+        byteSize: 159308,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G2HsPrg1S6oU3TvAfubMUxncbGChfjrSGmuIlvbqu2CdyuQHoejukQ&s",
+        thumbnailHeight: 108,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tailwind CSS IntelliSense | Laravel News",
+      htmlTitle: "<b>Tailwind CSS</b> IntelliSense | Laravel News",
+      link: "https://laravelnews.imgix.net/images/tailwind-intellisense.jpg?ixlib=php-3.3.1",
+      displayLink: "laravel-news.com",
+      snippet: "Tailwind CSS IntelliSense | Laravel News",
+      htmlSnippet: "<b>Tailwind CSS</b> IntelliSense | Laravel News",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://laravel-news.com/tailwind-css-intellisense",
+        height: 1100,
+        width: 2200,
+        byteSize: 282961,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWylgL-5yUIiT2Cwz-j0eu0FMdb--1BbAHgqXrIkXlk5gks2hPtg2Z0CM&s",
+        thumbnailHeight: 75,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tailwind CSS - GeeksforGeeks",
+      htmlTitle: "<b>Tailwind CSS</b> - GeeksforGeeks",
+      link: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211110050115/Tailwind-CSS-Tutorial.png",
+      displayLink: "www.geeksforgeeks.org",
+      snippet: "Tailwind CSS - GeeksforGeeks",
+      htmlSnippet: "<b>Tailwind CSS</b> - GeeksforGeeks",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://www.geeksforgeeks.org/tailwind-css/",
+        height: 413,
+        width: 1000,
+        byteSize: 44789,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpl6fnpcLSSyAM6pP7Pj5Y9n2jcWT46S75sZTiDiZ9RFV8UiiDd_vTbA&s",
+        thumbnailHeight: 62,
+        thumbnailWidth: 149,
       },
     },
     {
       kind: "customsearch#result",
       title:
-        "hello | naturally friendly products, vegan + never tested on animals",
+        "The first alpha of Tailwind CSS v3 is now released | Laravel News",
       htmlTitle:
-        "<b>hello</b> | naturally friendly products, vegan + never tested on animals",
-      link: "https://www.hello-products.com/",
-      displayLink: "www.hello-products.com",
+        "The first alpha of <b>Tailwind CSS</b> v3 is now released | Laravel News",
+      link: "https://laravelnews.imgix.net/images/tailwindcss-1633184775.jpg?ixlib=php-3.3.1",
+      displayLink: "laravel-news.com",
       snippet:
-        "naturally friendly products for naturally friendly people. vegan, cruelty free, and thoughtfully formulated for everyone.",
+        "The first alpha of Tailwind CSS v3 is now released | Laravel News",
       htmlSnippet:
-        "naturally friendly products for naturally friendly people. vegan, cruelty free, and thoughtfully formulated for everyone.",
-      cacheId: "lcA_2yf_mQgJ",
-      formattedUrl: "https://www.hello-products.com/",
-      htmlFormattedUrl: "https://www.<b>hello</b>-products.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS49LpojT3gru71Lz17BGAr1J27k-oxw8YS5S9-FP5SOfnlZLCRuYqnO-Bu",
-            width: "312",
-            height: "161",
-          },
-        ],
-        metatags: [
-          {
-            "msapplication-tilecolor": "#ffffff",
-            "og:image":
-              "https://www.hello-products.com/wp-content/uploads/2020/01/HELLO_Strangely_Likeable_Mobile_Header_580x300.png",
-            "theme-color": "#ffffff",
-            "og:type": "website",
-            "og:image:width": "580",
-            "twitter:card": "summary",
-            "og:site_name": "Hello Products",
-            "msvalidate.01": "782AB2D27CB855D9F86E2B56FBC572DA",
-            "og:title":
-              "hello | naturally friendly products, vegan + never tested on animals",
-            "og:image:height": "300",
-            "og:image:type": "image/png",
-            "msapplication-tileimage": "/ms-icon-144x144.png",
-            "og:description":
-              "naturally friendly products for naturally friendly people. vegan, cruelty free, and thoughtfully formulated for everyone.",
-            "facebook-domain-verification": "5g2asge0sadcgj8wwh8380fkrcka91",
-            "article:modified_time": "2022-06-16T23:48:58+00:00",
-            viewport: "width=device-width, initial-scale=1.0",
-            "og:locale": "en_US",
-            "og:url": "https://www.hello-products.com/",
-            "format-detection": "telephone=no",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.hello-products.com/wp-content/uploads/2020/01/HELLO_Strangely_Likeable_Mobile_Header_580x300.png",
-          },
-        ],
+        "The first alpha of <b>Tailwind CSS</b> v3 is now released | Laravel News",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://laravel-news.com/tailwind-css-v3-alpha",
+        height: 1100,
+        width: 2200,
+        byteSize: 65562,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsRmdk4jTMcMSzmbmoF20EoqSmX5CZzFE23Uu3SRZWLS6V7C9S11FWvS4&s",
+        thumbnailHeight: 75,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Installation: Tailwind CLI - Tailwind CSS",
+      htmlTitle: "Installation: <b>Tailwind</b> CLI - <b>Tailwind CSS</b>",
+      link: "https://tailwindcss.com/_next/static/media/social-square.b622e290e82093c36cca57092ffe494f.jpg",
+      displayLink: "tailwindcss.com",
+      snippet: "Installation: Tailwind CLI - Tailwind CSS",
+      htmlSnippet: "Installation: <b>Tailwind</b> CLI - <b>Tailwind CSS</b>",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://tailwindcss.com/docs/installation",
+        height: 1200,
+        width: 1200,
+        byteSize: 21851,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQctSGGENUdrM_-VfQruf8cKZjJpPdDYbl7l8NSADz_VvCPRonlBKC7_IUc&s",
+        thumbnailHeight: 150,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tailwind CSS Starter Kit | Drupal.org",
+      htmlTitle: "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
+      link: "https://www.drupal.org/files/project-images/screenshot_361.png",
+      displayLink: "www.drupal.org",
+      snippet: "Tailwind CSS Starter Kit | Drupal.org",
+      htmlSnippet: "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://www.drupal.org/project/tailwindcss",
+        height: 400,
+        width: 400,
+        byteSize: 7158,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQniGOFIc0T_Pxp6gVSF0zDGIbdKfIUgHYNI0CAlwzuQr76oorrLhnj5A&s",
+        thumbnailHeight: 124,
+        thumbnailWidth: 124,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "How to Use Tailwind CSS to Rapidly Develop Snazzy Websites",
+      htmlTitle:
+        "How to Use <b>Tailwind CSS</b> to Rapidly Develop Snazzy Websites",
+      link: "https://kinsta.com/wp-content/uploads/2022/01/tailwind-css.jpg",
+      displayLink: "kinsta.com",
+      snippet: "How to Use Tailwind CSS to Rapidly Develop Snazzy Websites",
+      htmlSnippet:
+        "How to Use <b>Tailwind CSS</b> to Rapidly Develop Snazzy Websites",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://kinsta.com/blog/tailwind-css/",
+        height: 730,
+        width: 1460,
+        byteSize: 37657,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx8WQEjLzHsxwNoMVlRTX54u5GtDclRAHAGPFZh524kVua4AqoHYisNMw&s",
+        thumbnailHeight: 75,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: "customsearch#result",
       title:
-        "HelloFresh: America's #1 Meal Kits | Fresh Meal Delivery for Home ...",
+        "State of CSS 2020 Survey Results: Tailwind CSS Wins Most Adopted ...",
       htmlTitle:
-        "HelloFresh: America&#39;s #1 Meal Kits | Fresh Meal Delivery for Home ...",
-      link: "https://www.hellofresh.com/",
-      displayLink: "www.hellofresh.com",
+        "State of <b>CSS</b> 2020 Survey Results: <b>Tailwind CSS</b> Wins Most Adopted ...",
+      link: "https://149611589.v2.pressablecdn.com/wp-content/uploads/2020/12/state-of-css-2020.png",
+      displayLink: "wptavern.com",
       snippet:
-        "America's Most Popular Meal Kit :white_check_mark: Most 5-Star Reviews :white_check_mark: 50 Weekly Menu + Market Items :white_check_mark: Fresh ...",
+        "State of CSS 2020 Survey Results: Tailwind CSS Wins Most Adopted ...",
       htmlSnippet:
-        "America&#39;s Most Popular Meal Kit :white_check_mark: Most 5-Star Reviews :white_check_mark: 50 Weekly Menu + Market Items :white_check_mark: Fresh&nbsp;...",
-      formattedUrl: "https://www.hellofresh.com/",
-      htmlFormattedUrl: "https://www.<b>hello</b>fresh.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0Bq7tO5sF1V1-1v8kvaTkeniZIbr9H25KVfV0i17dZbobXY9rmtUQn6Wv",
-            width: "225",
-            height: "225",
-          },
-        ],
-        metatags: [
-          {
-            "msapplication-tilecolor": "#FFF",
-            "p:domain_verify": "5aea915e1ac0b408298cfb02478eb3b2",
-            country: "US",
-            "og:image":
-              "https://img.hellofresh.com/hellofresh_website/logo/Logo_square.png",
-            "theme-color": "#FFF",
-            "og:type": "product",
-            "og:site_name": "HelloFresh",
-            "apple-mobile-web-app-title": "Home",
-            "og:title":
-              "America's #1 Meal Kits | Fresh Meal Delivery for Home Cooking | HelloFresh",
-            "og:description": "HelloFresh",
-            version: "0.6374.0",
-            url: "https://www.hellofresh.com/",
-            "next-head-count": "58",
-            "twitter:site": "@hellofresh",
-            "site:name": "HelloFresh",
-            viewport: "width=device-width, initial-scale=1.0",
-            "og:locale": "en-US",
-            "og:url": "https://www.hellofresh.com/",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://img.hellofresh.com/hellofresh_website/logo/Logo_square.png",
-          },
-        ],
+        "State of <b>CSS</b> 2020 Survey Results: <b>Tailwind CSS</b> Wins Most Adopted ...",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink:
+          "https://wptavern.com/state-of-css-2020-survey-results-tailwind-css-wins-most-adopted-technology-utility-first-css-on-the-rise",
+        height: 1210,
+        width: 2100,
+        byteSize: 336654,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7J4T3nFo1ik-axOhMsUXO3h-t9yZNAP09VeI06nv1l2QMmBCz4zvU7eo&s",
+        thumbnailHeight: 86,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: "customsearch#result",
       title:
-        "HELLO! - Daily royal, celebrity, fashion, beauty & lifestyle news",
+        "Material Tailwind Kit React: Free Tailwind CSS & Material Design ...",
       htmlTitle:
-        "<b>HELLO</b>! - Daily royal, celebrity, fashion, beauty &amp; lifestyle news",
-      link: "https://www.hellomagazine.com/",
-      displayLink: "www.hellomagazine.com",
+        "Material <b>Tailwind</b> Kit React: Free <b>Tailwind CSS</b> &amp; Material Design ...",
+      link: "https://s3.amazonaws.com/creativetim_bucket/products/486/original/opt_mtr_thumbnail.jpg?1623313854",
+      displayLink: "www.creative-tim.com",
       snippet:
-        "HELLO! brings you the latest celebrity & royal news from the UK & around the world, magazine exclusives, fashion, beauty, lifestyle news, celeb babies, ...",
+        "Material Tailwind Kit React: Free Tailwind CSS & Material Design ...",
       htmlSnippet:
-        "<b>HELLO</b>! brings you the latest celebrity &amp; royal news from the UK &amp; around the world, magazine exclusives, fashion, beauty, lifestyle news, celeb babies,&nbsp;...",
-      cacheId: "hxjkDmKHGvIJ",
-      formattedUrl: "https://www.hellomagazine.com/",
-      htmlFormattedUrl: "https://www.<b>hello</b>magazine.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrFJKj5Z05x3Oik1ptcuuuy59bHOq359QK_F2Pug3AQIxhDa6Sb7xmPeo",
-            width: "225",
-            height: "225",
-          },
-        ],
-        metatags: [
-          {
-            "p:domain_verify": "2e0d0d07c9164557a351ff28f09074ef",
-            "og:image":
-              "https://www.himgs.com/imagenes/hello/social/hello-fb-logo.png",
-            "og:site_name": "HELLO!",
-            origen: "hellomagazine.com",
-            title:
-              "HELLO! - Daily royal, celebrity, fashion, beauty & lifestyle news",
-            distribution: "global",
-            "og:description":
-              "HELLO! brings you the latest celebrity & royal news from the UK & around the world, magazine exclusives, fashion, beauty, lifestyle news, celeb babies, weddings, pregnancies and more!",
-            last_mod: "Wed, 20 Jul 2022 21:03:45 GMT",
-            "dc.creator": "HELLO!",
-            "fb:admins": "89982930077",
-            lang: "en-GB",
-            "botify-site-verification": "rAorMmkbfzd6yOwJ3PITFmdyCjOzGLug",
-            "og:type": "website",
-            handheldfriendly: "True",
-            "msvalidate.01": "802E2A1202224ED23A9EF77A39836CEC",
-            author: "HELLO!",
-            "og:title":
-              "HELLO! - Daily royal, celebrity, fashion, beauty & lifestyle news",
-            locality: "London, UK",
-            "fb:pages": "89982930077",
-            viewport: "width=device-width, initial-scale=1",
-            organization: "HELLO!",
-            mobileoptimized: "0",
-            "resource-type": "document",
-            "dc.language": "English",
-            "og:url": "https://www.hellomagazine.com/",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.himgs.com/imagenes/hello/social/hello-fb-logo.png",
-          },
-        ],
-        sitenavigationelement: [
-          {
-            name: "Celebrities",
-            url: "Celebrities",
-          },
-          {
-            name: "Celebrities",
-            url: "Celebrities",
-          },
-          {
-            name: "Celebrities",
-            url: "Newsletter",
-          },
-        ],
+        "Material <b>Tailwind</b> Kit React: Free <b>Tailwind CSS</b> &amp; Material Design ...",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://www.creative-tim.com/product/material-tailwind-kit-react",
+        height: 600,
+        width: 800,
+        byteSize: 90436,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-wHY-cczVV_RC0ru4LDgYnmVdwBFYOa8qhlWYV0kIhWdjQ44ectkwdM&s",
+        thumbnailHeight: 107,
+        thumbnailWidth: 143,
       },
     },
     {
       kind: "customsearch#result",
-      title: "The Official Home of Hello Kitty & Friends",
-      htmlTitle: "The Official Home of <b>Hello</b> Kitty &amp; Friends",
-      link: "https://www.sanrio.com/",
-      displayLink: "www.sanrio.com",
+      title: "GitHub - tailwindlabs/tailwindcss-intellisense: Intelligent ...",
+      htmlTitle:
+        "GitHub - tailwindlabs/<b>tailwindcss</b>-intellisense: Intelligent ...",
+      link: "https://repository-images.githubusercontent.com/130268121/b4fd5300-b585-11ea-8718-1e141e78842e",
+      displayLink: "github.com",
       snippet:
-        "Explore the supercute world of Sanrio, home to Hello Kitty, My Melody, Kuromi, Aggretsuko, Gudetama, and more!",
+        "GitHub - tailwindlabs/tailwindcss-intellisense: Intelligent ...",
       htmlSnippet:
-        "Explore the supercute world of Sanrio, home to <b>Hello</b> Kitty, My Melody, Kuromi, Aggretsuko, Gudetama, and more!",
-      cacheId: "XcVtgsJCXsYJ",
-      formattedUrl: "https://www.sanrio.com/",
-      htmlFormattedUrl: "https://www.sanrio.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS2FYgqicxEKO3oVejVIYGIYCokOCM8llq1wdU_gL0767Kk2YJ7RghuREA",
-            width: "225",
-            height: "225",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://cdn.shopify.com/s/files/1/0416/8083/0620/files/HK_AND_Friends_cream_600x600.png?v=1604721645",
-            "theme-color": "#ffffff",
-            "og:type": "website",
-            "og:image:width": "1200",
-            "twitter:card": "summary",
-            "og:site_name": "Sanrio",
-            author: "Sanrio",
-            "og:title": "The Official Home of Hello Kitty & Friends",
-            "shopify-checkout-api-token": "16940c0cea93e91348c277a0eafbe76d",
-            "og:image:height": "1200",
-            "og:description":
-              "Explore the supercute world of Sanrio, home to Hello Kitty, My Melody, Kuromi, Aggretsuko, Gudetama, and more!",
-            "og:image:secure_url":
-              "https://cdn.shopify.com/s/files/1/0416/8083/0620/files/HK_AND_Friends_cream_600x600.png?v=1604721645",
-            "twitter:site": "@sanrio/",
-            viewport: "width=device-width,initial-scale=1",
-            "shopify-digital-wallet": "/41680830620/digital_wallets/dialog",
-            "og:url": "https://www.sanrio.com/",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://cdn.shopify.com/s/files/1/0416/8083/0620/files/HK_AND_Friends_cream_600x600.png?v=1604721645",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "HELLO! US Edition - Latest news and Photos",
-      htmlTitle: "<b>HELLO</b>! US Edition - Latest news and Photos",
-      link: "https://www.hellomagazine.com/us/",
-      displayLink: "www.hellomagazine.com",
-      snippet:
-        "HELLO! US edition brings you the latest celebrity & royal news from the US & around the world, magazine exclusives, celeb babies, weddings, pregnancies and ...",
-      htmlSnippet:
-        "<b>HELLO</b>! US edition brings you the latest celebrity &amp; royal news from the US &amp; around the world, magazine exclusives, celeb babies, weddings, pregnancies and&nbsp;...",
-      cacheId: "75KX4ku9N7oJ",
-      formattedUrl: "https://www.hellomagazine.com/us/",
-      htmlFormattedUrl: "https://www.<b>hello</b>magazine.com/us/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6_L1qnhJWBNaS6cNOP8QL-kVHV1BS5PAanP7IdC0KlddLQa8Xf4pmxA",
-            width: "111",
-            height: "67",
-          },
-        ],
-        metatags: [
-          {
-            "og:type": "website",
-            "twitter:card": "summary",
-            "twitter:title":
-              "HELLO! US edition brings you the latest celebrity & royal news from the US & around the world, magazine exclusives, celeb babies, weddings, pregnancies and more",
-            "og:site_name": "hellomagazine.com",
-            "twitter:url": "https://www.hellomagazine.com/us/",
-            "og:title":
-              "HELLO! US edition brings you the latest celebrity & royal news from the US & around the world, magazine exclusives, celeb babies, weddings, pregnancies and more",
-            title:
-              "HELLO! US edition brings you the latest celebrity & royal news from the US & around the world, magazine exclusives, celeb babies, weddings, pregnancies and more",
-            "og:description":
-              "HELLO! US edition brings you the latest celebrity & royal news from the US & around the world, magazine exclusives, celeb babies, weddings, pregnancies and more",
-            "twitter:creator": "@hellomag",
-            "twitter:site": "@hellomag",
-            viewport: "width=device-width, initial-scale=1, user-scalable=yes",
-            "twitter:description":
-              "HELLO! US edition brings you the latest celebrity & royal news from the US & around the world, magazine exclusives, celeb babies, weddings, pregnancies and more",
-            "og:url": "https://www.hellomagazine.com/us/",
-            "botify-site-verification": "rAorMmkbfzd6yOwJ3PITFmdyCjOzGLug",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://images.hellomagazine.com/imagenes/bloques/us/2018-5stories-horizontal/amazon-best-mens-deals-prime-day-t.jpg?tx=w_250",
-          },
-        ],
-        sitenavigationelement: [
-          {
-            name: "Celebrities",
-            url: "Celebrities",
-          },
-          {
-            name: "Celebrities",
-            url: "Celebrities",
-          },
-          {
-            name: "Celebrities",
-            url: "Newsletter",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Games: Homepage",
-      htmlTitle: "<b>Hello</b> Games: Homepage",
-      link: "https://hellogames.org/",
-      displayLink: "hellogames.org",
-      snippet:
-        "Hello Games. Join us on our journey to create the types of games that didn't exist before. View Jobs. Who We Are. We are a small studio who like to harness ...",
-      htmlSnippet:
-        "<b>Hello</b> Games. Join us on our journey to create the types of games that didn&#39;t exist before. View Jobs. Who We Are. We are a small studio who like to harness&nbsp;...",
-      cacheId: "k10VN_BHc4AJ",
-      formattedUrl: "https://hellogames.org/",
-      htmlFormattedUrl: "https://<b>hello</b>games.org/",
-      pagemap: {
-        thumbnail: [
-          {
-            src: "https://hellogames.org/thumb.png",
-          },
-        ],
-        metatags: [
-          {
-            "msapplication-tilecolor": "#ffffff",
-            "og:image":
-              "https://hellogames.org/app/uploads/2020/03/bg-section-background-1440w.jpg",
-            "og:type": "website",
-            "og:image:width": "1440",
-            "twitter:card": "summary_large_image",
-            "twitter:title": "Homepage - Hello Games",
-            "theme-color": "#ffffff",
-            thumbnail: "https://hellogames.org/thumb.png",
-            "og:site_name": "Hello Games",
-            "og:title": "Homepage - Hello Games",
-            "og:image:height": "859",
-            "og:description": "Homepage - Hello Games",
-            "og:image:secure_url":
-              "https://hellogames.org/app/uploads/2020/03/bg-section-background-1440w.jpg",
-            "twitter:image":
-              "https://hello-games-new-studio-site.azurewebsites.net/app/uploads/2020/03/bg-section-background-1440w.jpg",
-            viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
-            "twitter:description": "Homepage - Hello Games",
-            "og:locale": "en_GB",
-            "og:url": "https://hellogames.org/",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://hello-games-new-studio-site.azurewebsites.net/app/uploads/2020/03/bg-nms-layer-2-2560w-768x900.png",
-            width: "207",
-            type: "1",
-            height: "243",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "hello network",
-      htmlTitle: "<b>hello</b> network",
-      link: "https://www.hello.com/",
-      displayLink: "www.hello.com",
-      snippet:
-        "It's see you again soon. We are pausing hello while we get ready to launch something even better. We have loved having you a part of this community, and we want ...",
-      htmlSnippet:
-        "It&#39;s see you again soon. We are pausing <b>hello</b> while we get ready to launch something even better. We have loved having you a part of this community, and we want&nbsp;...",
-      cacheId: "B0MLNJX0TmYJ",
-      formattedUrl: "https://www.hello.com/",
-      htmlFormattedUrl: "https://www.<b>hello</b>.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXJx8iiLj_vC1pi6NSfn82J8dFiejkfN7OSJBhxEadoQo_WtyZGHiTXqk",
-            width: "337",
-            height: "149",
-          },
-        ],
-        metatags: [
-          {
-            "apple-mobile-web-app-status-bar-style": "black",
-            viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-            "apple-mobile-web-app-capable": "yes",
-            author: "Hello Network, Inc.",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.hello.com/img/hello-logo.png",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Design",
-      htmlTitle: "<b>Hello</b> Design",
-      link: "https://www.hellodesign.com/",
-      displayLink: "www.hellodesign.com",
-      snippet:
-        "Hello is a creative agency driven to craft worthy experiences. We believe everything will be digital—surrounding us like the air we breathe.",
-      htmlSnippet:
-        "<b>Hello</b> is a creative agency driven to craft worthy experiences. We believe everything will be digital—surrounding us like the air we breathe.",
-      cacheId: "bpnW6X-_EvAJ",
-      formattedUrl: "https://www.hellodesign.com/",
-      htmlFormattedUrl: "https://www.<b>hello</b>design.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR--0_qKuJoRNnvSwoiYALScg3GTJgsjRFwAbRZLQ0tpurCbrxgSMwjOngj",
-            width: "310",
-            height: "163",
-          },
-        ],
-        metatags: [
-          {
-            cluster: "ip-10-3-2-62.us-west-2.compute.internal",
-            "og:image": "https://www.hellodesign.com/image/732/b17/0.5,0.5",
-            "og:type": "website",
-            "twitter:title": "Hello Design",
-            "og:image:width": "1200",
-            "twitter:card": "summary_large_image",
-            "og:site_name": "Hello",
-            author: "Hello Design",
-            "og:title": "Hello Design",
-            "og:image:height": "630",
-            "og:image:type": "jpeg",
-            "og:description":
-              "Hello is a creative agency driven to craft worthy experiences. We believe everything will be digital—surrounding us like the air we breathe. Hello is communication, and simply what we do.",
-            "twitter:image:src":
-              "https://www.hellodesign.com/image/732/b17/0.5,0.5",
-            viewport: "width=device-width, initial-scale=1.0, shrink-to-fit=no",
-            "twitter:description":
-              "Hello is a creative agency driven to craft worthy experiences. We believe everything will be digital—surrounding us like the air we breathe. Hello is communication, and simply what we do.",
-            "og:url": "https://www.hellodesign.com/index.html",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.hellodesign.com/image/732/b17/0.5,0.5",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Bar: Home",
-      htmlTitle: "<b>Hello</b> Bar: Home",
-      link: "https://www.hellobar.com/",
-      displayLink: "www.hellobar.com",
-      snippet:
-        "Convert 83% More. Visitors into Leads, Subscribers, & Buyers. Bars, Modals, Sliders — beautifully designed popups for your site. Easy to use.",
-      htmlSnippet:
-        "Convert 83% More. Visitors into Leads, Subscribers, &amp; Buyers. Bars, Modals, Sliders — beautifully designed popups for your site. Easy to use.",
-      cacheId: "XnRADKczSwcJ",
-      formattedUrl: "https://www.hellobar.com/",
-      htmlFormattedUrl: "https://www.<b>hello</b>bar.com/",
-      pagemap: {
-        metatags: [
-          {
-            "og:type": "website",
-            "twitter:card": "summary_large_image",
-            "twitter:title": "Home - Hello Bar",
-            "og:site_name": "Hello Bar",
-            viewport:
-              "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
-            "og:title": "Home - Hello Bar",
-            "og:locale": "en_US",
-            "og:url": "https://www.hellobar.com/",
-          },
-        ],
+        "GitHub - tailwindlabs/<b>tailwindcss</b>-intellisense: Intelligent ...",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://github.com/tailwindlabs/tailwindcss-intellisense",
+        height: 1280,
+        width: 2560,
+        byteSize: 92064,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-SglXYZmRxfSITNNw2rdQc86iMZk8cOJN9HzGoq4ImWmPyD3wnLUJg&s",
+        thumbnailHeight: 75,
+        thumbnailWidth: 150,
       },
     },
   ],
