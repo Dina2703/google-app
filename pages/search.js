@@ -5,7 +5,7 @@ import SearchResults from "../components/SearchResults";
 import TestResult from "../TestResult";
 import { useRouter } from "next/router";
 
-export default function search({ results }) {
+export default function Search({ results }) {
   console.log(results);
   const router = useRouter();
 
